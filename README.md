@@ -42,9 +42,11 @@ Follow these steps to **set up** and use the Conference Management Application:
 (notice the branch is at the end in parenthesis (main))
   - We should not work on main branch so we have to create our own branch and check it out
   - We create a new branch with the command `git branch <name_of_branch>` (The name should be your first name dash your team)
-  - Then we jump on the new branch with command `git checkput <name_of_branch>` (in the example the branch is "stoyan-backend)
+  - Then we jump on the new branch with command `git checkout <name_of_branch>` (in the example the branch is 
+    "stoyan-backend")
     
 ![Git3](https://github.com/DevRangersBG/conference-management/assets/4021443/342dd8cc-8738-4af4-ac59-3c7da03a1775)
 
-3. Make sure any `git commit` and `git push` you do are on your own Branch for now! (in the example the branch is "stoyan-backend)!
+3. Make sure any `git commit` and `git push` you do are on your own Branch for now! (in the example, the branch is named
+   "stoyan-backend")!
 

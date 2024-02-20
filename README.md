@@ -17,6 +17,7 @@ Follow these steps to **set up** and use the Conference Management Application:
   - `composer install`
   - `npm install`
   - if above are not recognized in your terminal you have to install them and Restart VSCode or terminal (PC Restart if those don't work)
+     - git: [Git for Windowns 64bit](https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe)
      - npm: [Node for Windows 64bit](https://nodejs.org/dist/v20.11.1/node-v20.11.1-x64.msi)
      - composer: [Composer for Windows](https://getcomposer.org/Composer-Setup.exe)
        - you need PHP installed ([XAMP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe) to finish the Composer installation)

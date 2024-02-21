@@ -51,6 +51,14 @@ Route::middleware('auth')->group(function () {
         return view('conference.contacts');
     })->name('contacts');
 
+<<<<<<< HEAD
+=======
+    // Test for Nofication Email sending 
+    // author: lgbadluck
+    // start
+    Route::get('/send', [ProfileController::class, 'send'])->name('send');
+    // end
+>>>>>>> af4cafd (ADDED CHANGES: to EmailNotification)
 });
 
 require __DIR__.'/auth.php';

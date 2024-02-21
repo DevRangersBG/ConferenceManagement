@@ -8,6 +8,15 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
+<<<<<<< HEAD
+=======
+// Test for Nofication Email sending 
+// author: lgbadluck
+// start
+//use Notification; // Not needed => we have \Notifications\EmailNotification; below
+use App\Notifications\EmailNotification;
+// end
+>>>>>>> af4cafd (ADDED CHANGES: to EmailNotification)
 
 class ProfileController extends Controller
 {
@@ -57,4 +66,34 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
+<<<<<<< HEAD
+=======
+
+// Test for Nofication Email sending 
+// author: lgbadluck
+// start
+    public function send() 
+    {
+        $user = Auth::user();
+
+        $project = [
+            'greeting' => 'Hi '.$user->name.',',
+            'body' => 'This is the project assigned to you.',
+            'thanks' => 'Thank you this is from codeanddeploy.com',
+            'actionText' => 'View Project',
+            'actionURL' => url('/'),
+            'id' => 57
+        ];
+
+        //Notification::send($user, new EmailNotification($project));
+        //dd('Notification sent!');
+        $user->notify(new EmailNotification($project));
+        //dd($user->notifications); - breaks trying to update DB notification
+        //SELECT * FROM `notifications` WHERE `notifications`.`notifiable_type` = App\Models\USER AND `notifications`.`notifiable_id` = 1 AND `notifications`.`notifiable_id` IS NOT NULL ORDER BY `created_at` DESC
+        
+        //Return to Dashboard
+        return view('dashboard');
+    }
+// end
+>>>>>>> af4cafd (ADDED CHANGES: to EmailNotification)
 }

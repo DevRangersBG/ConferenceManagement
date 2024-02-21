@@ -63,7 +63,6 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
-
 // Test for Nofication Email sending
 // author: lgbadluck
 // start

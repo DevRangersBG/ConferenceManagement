@@ -54,8 +54,9 @@ Route::middleware('auth')->group(function () {
 
     // Test for Nofication Email sending 
     // author: lgbadluck
+    // start
     Route::get('/send', [ProfileController::class, 'send'])->name('send');
-
+    // end
 });
 
 

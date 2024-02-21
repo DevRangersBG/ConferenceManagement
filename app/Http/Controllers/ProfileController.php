@@ -10,8 +10,10 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 // Test for Nofication Email sending 
 // author: lgbadluck
-use Notification;
+// start
+//use Notification; // Not needed => we have \Notifications\EmailNotification; below
 use App\Notifications\EmailNotification;
+// end
 
 class ProfileController extends Controller
 {
@@ -61,8 +63,10 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
+
 // Test for Nofication Email sending 
 // author: lgbadluck
+// start
     public function send() 
     {
         $user = Auth::user();
@@ -76,8 +80,14 @@ class ProfileController extends Controller
             'id' => 57
         ];
 
-        Notification::send($user, new EmailNotification($project));
-
+        //Notification::send($user, new EmailNotification($project));
         //dd('Notification sent!');
+        $user->notify(new EmailNotification($project));
+        //dd($user->notifications); - breaks trying to update DB notification
+        //SELECT * FROM `notifications` WHERE `notifications`.`notifiable_type` = App\Models\USER AND `notifications`.`notifiable_id` = 1 AND `notifications`.`notifiable_id` IS NOT NULL ORDER BY `created_at` DESC
+        
+        //Return to Dashboard
+        return view('dashboard');
     }
+// end
 }

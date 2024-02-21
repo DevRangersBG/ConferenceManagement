@@ -83,6 +83,7 @@ class ProfileController extends Controller
 
         //Notification::send($user, new EmailNotification($project));
         //dd('Notification sent!');
+        $user->notify(new EmailNotification($project));
 
         //Return to Dashboard
         return Redirect::route('dashboard', app()->getLocale());

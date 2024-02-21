@@ -30,6 +30,11 @@
     "Your email address is unverified." : "Your email address is unverified.",
     "Click here to re-send the verification email." : "Click here to re-send the verification email.",
     "A new verification link has been sent to your email address." : "A new verification link has been sent to your email address.",
-    "You're logged in!" : "You're logged in!"
-    
+    "You're logged in!" : "You're logged in!",
+    "Participant" : "Participant",
+    "Panels" : "Panels",
+    "Fees" : "Fees",
+    "Sponsorship" : "Sponsorship",
+    "Accommodation" : "Accommodation",
+    "Contacts" : "Contacts"
 }

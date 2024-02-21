@@ -1,0 +1,52 @@
+{
+
+    /*confirm-password.blade.php*/
+    "This is a secure area of the application. Please confirm your password before continuing." : "Това е защитена зона на приложението. Моля, потвърдете паролата си, преди да продължите.",
+    "Confirm" : "Потвърди",
+     /*forgot-password.blade.php*/
+    "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one." : " Забравена парола? Няма проблем. Попълнете вашия имейл адрес и ние ще ви изпратим писмо с линк  за повторно задаване на нова парола.",
+    "Email Password Reset Link" : "Линк за създаване на нова парола",
+    /*login.blade.php*/
+    "Remember me" : "Запомни ме",
+    "Forgot your password?" : "Забравена парола?",
+    "Log in" : "Вход",
+    /*register.blade.php*/
+    "Already registered?" : "Вече имате регистрация?",
+    "Register" : "Регистрирай се.",
+    /*reset-password.blade.php*/
+    "Reset Password" : "Нова парола",
+    /*verify-email.blade.php*/
+    "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.": "Благодаря за регистрацията! Преди да започнем, моля потвърдете вашия имайл, следвайки линка, който сме изпратили на вашата поща. Ако не сте получили имайл, ние ще ви изпратим друг.",
+    "A new verification link has been sent to the email address you provided during registration." : "Беше ви изпратен нов линк за потвърждение на вашия имейл.",
+    "Resend Verification Email" : "Повторно изпращане на имейл за потвърждение.",
+    "Log Out" : "Изход",
+    /*Layouts-navigation.blade.php*/
+    "Dashboard" : "Табло",
+    "Profile" : "Профил",
+    /*profile-partials-detele-user-from.blade.php*/
+    "Delete Account" : "Изтриване на профил",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain."
+    :"С изтриването на вашия профил ще загубите вашите данни завинаги. Преди изтриване, моля запазете данните, които желаете.",
+     "Are you sure you want to delete your account?" : "Сигурни ли сте, че искате да изтриете вашия профил?",
+     "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.'" : "С изтриването на вашия профил ще загубите вашите данни завинаги. Моля, въведете вашата парола, за да потвърдите желанието си за изтриване на профила.",
+     "Cancel" : "Отказ",
+     /*update-password-form.blade.php*/
+     "Update Password" : "Обнобяване на парола",
+     "Ensure your account is using a long, random password to stay secure" : "Използвайте повече и по-разнообразни символи, за да подобрите сигурността на вашата парола.",
+     "Save" : "Запази",
+     "Saved" :"Запазена",
+     /*update-profile-information-form.blade.php*/
+     "Profile Information" :"Информация за профила",
+     "Update your account's profile information and email address." :"Обновете информацията за вашия профил и имейл.",
+     "Your email address is unverified" :"Вашия имейл не е потвърден",
+     "Click here to re-send the verification email" :"Натиснете тук, за да получите нов имейл за потвърждение. ",
+     "A new verification link has been sent to your email address." :"Беше ви изпратен нов линк за потвърждаване на вашия имейл.",
+     /*dashboard.blade.php*/
+     "You're logged in!" :"Вие сте вписан!",
+     "" :"",
+     "" :"",
+     "" :"",
+     "" :"",
+     "" :"",
+
+}

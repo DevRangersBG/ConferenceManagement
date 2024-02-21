@@ -11,6 +11,7 @@ use Illuminate\View\View;
 // Test for Nofication Email sending
 // author: lgbadluck
 // start
+//use Notification; // Not needed => we have \Notifications\EmailNotification; below
 use App\Notifications\EmailNotification;
 // end
 
@@ -63,10 +64,10 @@ class ProfileController extends Controller
         return Redirect::to('/');
     }
 
-// Test for Nofication Email sending
+// Test for Nofication Email sending 
 // author: lgbadluck
 // start
-    public function send()
+    public function send() 
     {
         $user = Auth::user();
 
@@ -86,4 +87,5 @@ class ProfileController extends Controller
         //Return to Dashboard
         Redirect::route('dashboard', app()->getLocale());
     }
+// end
 }

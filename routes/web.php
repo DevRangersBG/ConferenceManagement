@@ -68,3 +68,5 @@ Route::group([
         })->name('contacts');
     });
 });
+
+require __DIR__.'/auth.php';

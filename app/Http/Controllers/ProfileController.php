@@ -11,7 +11,6 @@ use Illuminate\View\View;
 // Test for Nofication Email sending
 // author: lgbadluck
 // start
-//use Notification; // Not needed => we have \Notifications\EmailNotification; below
 use App\Notifications\EmailNotification;
 // end
 
@@ -81,13 +80,10 @@ class ProfileController extends Controller
         ];
 
         //Notification::send($user, new EmailNotification($project));
-        //dd('Notification sent!');
         $user->notify(new EmailNotification($project));
-        //dd($user->notifications); - breaks trying to update DB notification
-        //SELECT * FROM `notifications` WHERE `notifications`.`notifiable_type` = App\Models\USER AND `notifications`.`notifiable_id` = 1 AND `notifications`.`notifiable_id` IS NOT NULL ORDER BY `created_at` DESC
+        //dd('Notification sent!');
 
         //Return to Dashboard
-        return view('dashboard');
+        Redirect::route('dashboard', app()->getLocale());
     }
-// end
 }

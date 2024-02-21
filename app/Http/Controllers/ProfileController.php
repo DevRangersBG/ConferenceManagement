@@ -12,6 +12,8 @@ use Illuminate\View\View;
 // author: lgbadluck
 // start
 //use Notification; // Not needed => we have \Notifications\EmailNotification; below
+// start
+//use Notification; // Not needed => we have \Notifications\EmailNotification; below
 use App\Notifications\EmailNotification;
 // end
 
@@ -80,7 +82,6 @@ class ProfileController extends Controller
         ];
 
         //Notification::send($user, new EmailNotification($project));
-        $user->notify(new EmailNotification($project));
         //dd('Notification sent!');
 
         //Return to Dashboard

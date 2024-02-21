@@ -66,6 +66,5 @@ Route::group([
         Route::get('/contacts', function () {
             return view('conference.contacts');
         })->name('contacts');
-
-    require __DIR__ . '/auth.php';
 });
+require __DIR__ . '/auth.php';

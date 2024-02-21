@@ -67,7 +67,6 @@ class ProfileController extends Controller
     }
 // Test for Nofication Email sending
 // author: lgbadluck
-// start
     public function send()
     {
         $user = Auth::user();

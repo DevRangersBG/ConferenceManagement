@@ -64,10 +64,10 @@ class ProfileController extends Controller
         return Redirect::to('/');
     }
 
-// Test for Nofication Email sending 
+// Test for Nofication Email sending
 // author: lgbadluck
 // start
-    public function send() 
+    public function send()
     {
         $user = Auth::user();
 

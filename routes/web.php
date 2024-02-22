@@ -15,51 +15,52 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect(app()->getLocale());
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::group([
+    'prefix' => '{locale}',
+    'where' => ['locale' => '[a-zA-Z]{2}'],
+    'middleware' => 'setlocale',
+], function() {
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/', function () {
+        return view('welcome');
+    });
 
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->middleware(['auth', 'verified'])->name('dashboard');
 
-    Route::get('/participant', function () {
-        return view('conference.participant');
-    })->name('participant');
+    Route::middleware('auth')->group(function () {
+        Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+        Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
-    Route::get('/panels', function () {
-        return view('conference.panels');
-    })->name('panels');
+        Route::get('/participant', function () {
+            return view('conference.participant');
+        })->name('participant');
 
-    Route::get('/fees', function () {
-        return view('conference.fees');
-    })->name('fees');
+        Route::get('/panels', function () {
+            return view('conference.panels');
+        })->name('panels');
 
-    Route::get('/sponsorship', function () {
-        return view('conference.sponsorship');
-    })->name('sponsorship');
+        Route::get('/fees', function () {
+            return view('conference.fees');
+        })->name('fees');
 
-    Route::get('/accommodation', function () {
-        return view('conference.accommodation');
-    })->name('accommodation');
+        Route::get('/sponsorship', function () {
+            return view('conference.sponsorship');
+        })->name('sponsorship');
 
-    Route::get('/contacts', function () {
-        return view('conference.contacts');
-    })->name('contacts');
+        Route::get('/accommodation', function () {
+            return view('conference.accommodation');
+        })->name('accommodation');
 
-    // Test for Nofication Email sending 
-    // author: lgbadluck
-    // start
-    Route::get('/send', [ProfileController::class, 'send'])->name('send');
-    // end
+        Route::get('/contacts', function () {
+            return view('conference.contacts');
+        })->name('contacts');
+
 });
 
-
-
-
-require __DIR__ . '/auth.php';
+require __DIR__.'/auth.php';

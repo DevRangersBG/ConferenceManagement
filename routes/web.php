@@ -42,6 +42,7 @@ Route::group([
         Route::get('/send', [ProfileController::class, 'send'])->name('send');
         // end
 
+
         Route::get('/participant', function () {
             return view('conference.participant');
         })->name('participant');
@@ -66,6 +67,4 @@ Route::group([
             return view('conference.contacts');
         })->name('contacts');
     });
-
-    require __DIR__ . '/auth.php';
 });

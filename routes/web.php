@@ -22,7 +22,7 @@ Route::group([
     'prefix' => '{locale}',
     'where' => ['locale' => '[a-zA-Z]{2}'],
     'middleware' => 'setlocale',
-], function() {
+], function () {
 
     Route::get('/', function () {
         return view('welcome');
@@ -36,12 +36,11 @@ Route::group([
         Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
         Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
         Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-        // Test for Nofication Email sending
+        // Test for Nofication Email sending 
         // author: lgbadluck
         // start
         Route::get('/send', [ProfileController::class, 'send'])->name('send');
         // end
-
 
         Route::get('/participant', function () {
             return view('conference.participant');
@@ -66,7 +65,8 @@ Route::group([
         Route::get('/contacts', function () {
             return view('conference.contacts');
         })->name('contacts');
-    });
-});
 
-require __DIR__.'/auth.php';
+    });
+
+    require __DIR__ . '/auth.php';
+});

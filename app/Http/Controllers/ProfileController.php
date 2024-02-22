@@ -85,7 +85,7 @@ class ProfileController extends Controller
         //dd('Notification sent!');
 
         //Return to Dashboard
-        Redirect::route('dashboard', app()->getLocale());
+        return Redirect::route('dashboard', app()->getLocale());
     }
 // end
 }

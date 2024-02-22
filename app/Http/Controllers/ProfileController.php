@@ -8,15 +8,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
-<<<<<<< HEAD
-=======
+
 // Test for Nofication Email sending 
 // author: lgbadluck
 // start
 //use Notification; // Not needed => we have \Notifications\EmailNotification; below
 use App\Notifications\EmailNotification;
 // end
->>>>>>> af4cafd (ADDED CHANGES: to EmailNotification)
 
 class ProfileController extends Controller
 {
@@ -66,8 +64,6 @@ class ProfileController extends Controller
 
         return Redirect::to('/');
     }
-<<<<<<< HEAD
-=======
 
 // Test for Nofication Email sending 
 // author: lgbadluck
@@ -95,5 +91,4 @@ class ProfileController extends Controller
         return view('dashboard');
     }
 // end
->>>>>>> af4cafd (ADDED CHANGES: to EmailNotification)
 }

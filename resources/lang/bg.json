@@ -31,5 +31,11 @@
      "Your email address is unverified" :"Вашия имейл не е потвърден",
      "Click here to re-send the verification email" :"Натиснете тук, за да получите нов имейл за потвърждение. ",
      "A new verification link has been sent to your email address." :"Беше ви изпратен нов линк за потвърждаване на вашия имейл.",
-     "You're logged in!" :"Вие сте вписан!"
+     "You're logged in!" :"Вие сте вписан!",
+    "Participant" : "За автори",
+    "Panels" : "Теми",
+    "Fees" : "Такси",
+    "Sponsorship" : "Спонсорство",
+    "Accommodation" : "Настаняване",
+    "Contacts" : "Контакти"
 }

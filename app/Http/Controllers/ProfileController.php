@@ -87,7 +87,7 @@ class ProfileController extends Controller
         //SELECT * FROM `notifications` WHERE `notifications`.`notifiable_type` = App\Models\USER AND `notifications`.`notifiable_id` = 1 AND `notifications`.`notifiable_id` IS NOT NULL ORDER BY `created_at` DESC
         
         //Return to Dashboard
-        return view('dashboard');
+        return Redirect::route('dashboard', app()->getLocale());
     }
 // end
 }

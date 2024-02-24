@@ -44,8 +44,8 @@ class User extends Authenticatable //implements MustVerifyEmail
         'password' => 'hashed',
     ];
 
-    public function sendEmailVerificationNotification()
+/*    public function sendEmailVerificationNotification(): void
     {
         $this->notify(new CustomEmailLink);
-    }
+    }*/
 }

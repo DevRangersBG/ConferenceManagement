@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect(app()->getLocale());
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return redirect(app()->getLocale().'/dashboard');
 });
 
 Route::group([
@@ -23,10 +27,6 @@ Route::group([
     'where' => ['locale' => '[a-zA-Z]{2}'],
     'middleware' => 'setlocale',
 ], function() {
-
-    Route::get('/', function () {
-        return view('welcome');
-    });
 
     Route::get('/dashboard', function () {
         return view('dashboard');
@@ -63,5 +63,6 @@ Route::group([
 
     });
 
-    require __DIR__ . '/auth.php';
 });
+
+require __DIR__ . '/auth.php';

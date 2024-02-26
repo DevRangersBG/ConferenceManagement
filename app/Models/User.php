@@ -2,14 +2,14 @@
 
 namespace App\Models;
 
-use App\Notifications\CustomEmailLink;
+use App\Notifications\CustomVerifyEmail;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable //implements MustVerifyEmail
+class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -44,8 +44,8 @@ class User extends Authenticatable //implements MustVerifyEmail
         'password' => 'hashed',
     ];
 
-/*    public function sendEmailVerificationNotification(): void
+    public function sendEmailVerificationNotification(): void
     {
-        $this->notify(new CustomEmailLink);
-    }*/
+        $this->notify(new CustomVerifyEmail);
+    }
 }

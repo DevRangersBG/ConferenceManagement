@@ -108,8 +108,7 @@
                                             data-original="#000000" />
                                     </svg>
                                     <p class="text-yellow-600 font-semibold text-sm">{{ __('Drag & Drop or') }}<span
-                                            class="text-[#4eb2ec]">{{ __('Choose file') }}</span>{{ __(' to
-                                        upload')}}</p>
+                                            class="text-[#4eb2ec]">{{ __('Choose file') }}</span>{{ __(' to upload')}}</p>
                                     <input type="file" id='uploadFile1' class="hidden" />
                                     <p class="text-xs text-yellow-600 mt-2">{{ __('Only Word documents are allowed.') }}</p>
                                 </label>
@@ -124,8 +123,7 @@
                             </div>
                             <!--Keywords -->
                             <div class="relative z-0 w-full mb-5 group">
-                                <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="file_input_help">{{ __('Keywords
-                                    (mandatory for authors):') }}</p>
+                                <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="file_input_help">{{ __('Keywords (mandatory for authors):') }}</p>
                                 <textarea class=" opacity custom-textarea"></textarea>
 
                             </div>
@@ -134,11 +132,10 @@
                             <div class="relative z-0 w-full mb-5 group">
                                 <form class="max-w-sm mx-auto">
                                     <label for="participants"
-                                        class="block py-2.5 px-0 w-full text-sm text-gray-500 dark:text-yellow-600">{{ __('Thematic
-                                        areas you wish to participate in:') }}</label>
+                                        class="block py-2.5 px-0 w-full text-sm text-gray-500 dark:text-yellow-600">{{ __('Thematic areas you wish to participate in:') }}</label>
                                     <select id="underline_select"
                                         class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-yellow-600 dark:border-yellow-600 focus:outline-none focus:ring-0 focus:border-lime-800 peer">
-                                        <option selected>{{ _('Policies, strategies, leadership') }}</option>
+                                        <option selected>{{ __('Policies, strategies, leadership') }}</option>
                                         <option>{{ __('Research, analysis, forecasts') }}</option>
                                         <option>{{ __('Operational compatibility') }}</option>
                                     </select>
@@ -186,8 +183,7 @@
                                     <img src="https://img.icons8.com/fluent/30/000000/youtube.png" />
                                 </a>
                             </div>
-                                <p class="text-center text-gray-700 font-medium">{{ __('Sofia, 1504
-                                    Boulevard "Evlogi and Hristo Georgievi" No. 82.')}}
+                                <p class="text-center text-gray-700 font-medium">{{ __('Sofia, 1504 Boulevard "Evlogi and Hristo Georgievi" No. 82.')}}
                                     <br>+359 2/ 92 26 550<br>
                                     <br>rnda@armf.bg<br></p>
                         </footer>

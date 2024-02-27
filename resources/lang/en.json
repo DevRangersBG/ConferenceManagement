@@ -42,6 +42,7 @@
     "Confirm Password" : "Confirm Password",
     "Name" : "Name",
     "Password" : "Password",
+
     "INSTRUCTIONS FOR PREPARATION OF REPORTS":"INSTRUCTIONS FOR PREPARATION OF REPORTS",
     "The instructions are about publishing reports related to the scientific conference with international participation \"20 years of Bulgaria in NATO and NATO in Bulgaria.\"" : "The instructions are about publishing reports related to the scientific conference with international participation \"20 years of Bulgaria in NATO and NATO in Bulgaria.\"",
     "Each participant can participate with up to two reports at the Scientific Conference – as an author or as a co-author." : "Each participant can participate with up to two reports at the Scientific Conference – as an author or as a co-author.",
@@ -70,10 +71,6 @@
     "The fee for participation in the scientific conference for learners is 30 BGN including VAT;" : "The fee for participation in the scientific conference for learners is 30 BGN including VAT;",
     "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;" : "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;",
     "The fees are transferred to the bank account of the Military Academy \"G. S. Rakovski\":" : "The fees are transferred to the bank account of the Military Academy \"G. S. Rakovski\":",
-    "Platinium Package" : "Platinium Package",
-    "Gold Package" : "Gold Package",
-    "Silver Package" : "Silver Package",
-    "Bronze Package" : "Bronze Package",
 
     "First name" : "First name",
     "Surname" : "Surname",
@@ -111,5 +108,23 @@
     "Platinium-link" : "https://rndc.bg/wp-content/uploads/2023/07/Platinum-package-Eng.pdf",
     "Gold-link" : "https://rndc.bg/wp-content/uploads/2023/07/Gold-Package-Eng.pdf",
     "Silver-link" : "https://rndc.bg/wp-content/uploads/2023/07/Silver-package-Eng.pdf",
-    "Bronze-link" : "https://rndc.bg/wp-content/uploads/2023/07/Bronze-Package-Eng.pdf"
+    "Bronze-link" : "https://rndc.bg/wp-content/uploads/2023/07/Bronze-Package-Eng.pdf",
+
+    "Platinium Package" : "Platinium Package",
+    "Gold Package" : "Gold Package",
+    "Silver Package" : "Silver Package",
+    "Bronze Package" : "Bronze Package",
+
+
+    "THEME FIELDS": "THEME FIELDS",
+    "POLICIES, STRATEGIES, LEADERSHIP": "POLICIES, STRATEGIES, LEADERSHIP",
+    "RESEARCH, ANALYSES, PREDICTIONS": "RESEARCH, ANALYSES, PREDICTIONS",
+    "INTEROPERABILITY":"INTEROPERABILITY",
+    "welcome_image":"welcome_en.svg",
+
+    "Beneficiary: Military Academy \"G. S. Rakovski\"" : "",
+    "Address of the beneficiary: Sofia 1504, bul. \"Evlogi and Hristo Georgievi\" No 82" : "",
+    "Beneficiary's Bank: BNB" : "",
+    "'BIC: BNBGBGSD" : "",
+    "IBAN: BG40BNBG96613100152401" : ""
 }

@@ -71,11 +71,6 @@
     "The fee for participation in the scientific conference for learners is 30 BGN including VAT;" : "Такаса на участници като обучаеми в научната конференция е 30 лева, влючително ДДС.",
     "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;" : "Таксата за въшни участници е 30 лева, влючително ДДС.",
     "The fees are transferred to the bank account of the Military Academy \"G. S. Rakovski\":" : "Такcите се превеждат на поcoчената банкова сметка на Военна акадения \"Г. С. Раковски\".",
-    "Beneficiary: Military Academy \"G. S. Rakovski\"" : "Получател : Военна академия \" Г. С. Раковски\".",
-    "Address of the beneficiary: Sofia 1504, bul. \"Evlogi and Hristo Georgievi\" No 82" : "Адрес на получателя: София 1504, бул.  \"Евлоги и Христо Георгиеви\" № 82",
-    "Beneficiary's Bank: BNB" : "Банка на получателя: БНБ",
-    "'BIC: BNBGBGSD" : "'BIC: BNBGBGSD",
-    "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401",
 
     "First name" : "Собствено име",
     "Surname" : "Бащино име",
@@ -104,9 +99,6 @@
     "Crystal Palace Boutique Hotel - " : "Бутиков хотел Кристъл палас  - ",
     "Oborishte 63 Boutique Hotel - " : "Бутиков хотел Хотел Оборище 63 - ",
     "Hyatt Regency Sofia - " : "Резиденция Хаят - ",
-    "Sofia 1504" : "София 1504",
-    "bul. \"Evlogi and Hristo Georgievi\" No 82" : "Бул.\"Евлоги и Христо Георгиеви\" № 82",
-    "Military Academy \"G. S. Rakovski\"" : "Военна академия \"Г. С. Раковки\"",
 
     "Hotel Kapri Sofia" : "Хотел Капри",
     "Crystal Palace Boutique Hotel" : "Бутиков хотел Кристъл палас ",
@@ -128,6 +120,13 @@
     "POLICIES, STRATEGIES, LEADERSHIP" : "ПОЛИТИКИ, СТРАТЕГИИ, ЛИДЕРСТВО",
     "RESEARCH, ANALYSES, PREDICTIONS" : "ИЗСЛЕДВАНИЯ, АНАЛИЗИ, ПРОГНОЗИ",
     "INTEROPERABILITY" : "ОПЕРАТИВНА СЪВМЕСТИМОСТ",
-    "welcome_image" : "welcome_bg.svg"
+    "welcome_image" : "welcome_bg.svg",
+
+    "Beneficiary: Military Academy \"G. S. Rakovski\"" : "Получател : Военна академия \" Г. С. Раковски\".",
+    "Address of the beneficiary: Sofia 1504, bul. \"Evlogi and Hristo Georgievi\" No 82" : "Адрес на получателя: София 1504, бул.  \"Евлоги и Христо Георгиеви\" № 82",
+    "Beneficiary's Bank: BNB" : "Банка на получателя: БНБ",
+    "'BIC: BNBGBGSD" : "'BIC: BNBGBGSD",
+    "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401"
 
 }
+

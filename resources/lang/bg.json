@@ -42,5 +42,21 @@
     "New Password" : "Нова парола",
     "Confirm Password" : "Потвърди парола",
     "Name" : "Име",
-    "Password" : "Парола"
+    "Password" : "Парола",
+    "INSTRUCTIONS FOR PREPARATION OF REPORTS":"УКАЗАНИЯ ЗА ИЗГОТВЯНЕ НА ОТЧЕТИ",
+    "The instructions are about publishing reports related to the scientific conference with international participation \"20 years of Bulgaria in NATO and NATO in Bulgaria.\"":"Указанията са относно публикуване на доклади, свързани с научната конференция с международно участие \"20 години България в НАТО и НАТО в България.\"",
+    "Each participant can participate with up to two reports at the Scientific Conference – as an author or as a co-author.":"Всеки участник може да участва с до два доклада на Научната конференция – като автор или в съавторство.",
+    "Reports are prepared in Word format, and each report should be no less than 6 pages and no more than 12 pages, with a recommended length of 20,000 characters including spaces.":"Докладите се изготвят в Word формат, като всеки доклад следва да бъде с размер не по-малък от 6 страници и не по-голям от 12 страници, с препоръчителен обем от 20 000 знака с интервалите.",
+    "Reports are submitted through the" : "Докладите се подават чрез",
+    "registration form" : "форма за регистрация",
+    "Deadline for submission of reports:":"Краен срок за подаване на докладите:",
+    "Reports will not be accepted after this date." : "След тази дата доклади не се приемат.",
+    "These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).":"Настоящите указания са разработени в съответствие с действащия стандарт БДС ISO 690:2021 (Ръководство за библиографски позовавания и цитиране на информационни източници).",
+    "The final program of the conference will be provided to the participants upon their registration.":"Окончателната програма на конференцията ще бъде предоставена на участниците при регистрацията им.",
+    "report template":"шаблон за доклад ",
+    "instructions for authors":"указания за автори",
+    "example layout":"примерно оформление",
+    "Reports are sent using the attached participation form. Papers that do not follow the submission instructions will not be accepted.":"Изпращането на докладите се осъществява с приложената форма за участие. Доклади, в които не са спазени инструкциите за участие, няма да бъдат допускани.",
+    "LANGUAGES OF USE":"РАБОТНИ ЕЗИЦИ",
+    "Bulgarian and English":"Български и английски"
 }

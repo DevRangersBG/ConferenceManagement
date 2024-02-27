@@ -7,20 +7,6 @@
         
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900">
-                    {{ __("You're logged in!") }}
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
 
   <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -29,22 +15,22 @@
                     
                 <ul class="list-disc my-10 text-justify">
   
-  <li>The maximum number of papers that each author can pay (alone or in co-authorship) is two;</li>
-  <li>The deadline for payment of the papers for participation in the scientific conference is determined after confirmation of approval for publication of the report, but not later than 22.03.2024;</li>
-  <li>The fee for participation with one paper in the scientific conference for external participants is 50 BGN including VAT. The co-authors of the papers pay a fee in full.</li>
-  <li>The fee for participation in the scientific conference for external participants with two papers is 80 BGN including VAT;</li>
-  <li>The fee for participation in the scientific conference for learners is 30 BGN including VAT;</li>
-  <li>The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;</li>
-  <li>The fees are transferred to the bank account of the Military Academy "G. S. Rakovski":</li>
+  <li>{{ __('The maximum number of papers that each author can pay (alone or in co-authorship) is two;') }}</li>
+  <li>{{ __('The deadline for payment of the papers for participation in the scientific conference is determined after confirmation of approval for publication of the report, but not later than 22.03.2024;') }}</li>
+  <li>{{ __('The fee for participation with one paper in the scientific conference for external participants is 50 BGN including VAT. The co-authors of the papers pay a fee in full.') }}</li>
+  <li>{{ __('The fee for participation in the scientific conference for learners is 30 BGN including VAT;') }}</li>
+  <li>{{ __('The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;') }}</li>
+  <li>{{ __('The fees are transferred to the bank account of the Military Academy "G. S. Rakovski":') }}</li>
+</ul>
 
 
 
 
-  <p class="text-justify mt-4">Beneficiary: <b>Military Academy "G. S. Rakovski"</b></P>
-  <p class="text-justify">Address of the beneficiary: <b>Sofia 1504, bul. "Evlogi and Hristo Georgievi" No 82</b></p>
-  <p class="text-justify">Beneficiary's Bank: <b>BNB</b></p>
-  <p class="text-justify">BIC: <b>BNBGBGSD</b></p>
-  <p class="text-justify">IBAN: <b>BG40BNBG96613100152401</b></p>
+  <p class="text-justify mt-4">{{ __('Beneficiary: Military Academy "G. S. Rakovski"') }}</p>
+  <p class="text-justify">{{ __('Address of the beneficiary: Sofia 1504, bul. "Evlogi and Hristo Georgievi" No 82') }}</p>
+  <p class="text-justify">{{ __("Beneficiary's Bank: BNB") }} </p>
+  <p class="text-justify">{{ __('BIC: BNBGBGSD') }}</p>
+  <p class="text-justify">{{ __('IBAN: BG40BNBG96613100152401') }}</p>
 
 
 

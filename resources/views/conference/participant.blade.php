@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 sm:px-12 lg:px-14">
                     <h1 class = "text-2xl text-center my-8"><b>{{ __("INSTRUCTIONS FOR PREPARATION OF REPORTS") }}</b></h1>
-                    <p>{{ __('The instructions are about publishing reports related to the scientific conference with international participation "20 years of Bulgaria in NATO and NATO in Bulgaria." ') }}</p>
+                    <p>{{ __('The instructions are about publishing reports related to the scientific conference with international participation "20 years of Bulgaria in NATO and NATO in Bulgaria."') }}</p>
 <p>{{ __("Each participant can participate with up to two reports at the Scientific Conference – as an author or as a co-author.") }}
 {{ __("Reports are prepared in Word format, and each report should be no less than 6 pages and no more than 12 pages, with a recommended length of 20,000 characters including spaces.") }}</p>
 <p>{{ __("Reports are submitted through the") }}  <a href="{{ route('dashboard', app()->getLocale()) }}"> <b> {{ __("registration form") }}  </b></a> </p>

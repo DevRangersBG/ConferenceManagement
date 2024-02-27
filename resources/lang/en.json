@@ -98,8 +98,18 @@
     
     "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82." : "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82.",
     "We recommend the following hotels for reservations within walking distance of \"G. S. Rakovski\" Military Academy:" : "We recommend the following hotels for reservations within walking distance of \"G. S. Rakovski\" Military Academy:",
-    "Hotel Kapri Sofia/Perfect location – " : "Hotel Kapri Sofia/Perfect location – ",
+    "Hotel Kapri Sofia/Perfect location - " : "Hotel Kapri Sofia/Perfect location – ",
     "Crystal Palace Boutique Hotel - " : "Crystal Palace Boutique Hotel - ",
     "Oborishte 63 Boutique Hotel - " : "Oborishte 63 Boutique Hotel - ",
-    "Hyatt Regency Sofia - " : "Hyatt Regency Sofia - " 
+    "Hyatt Regency Sofia - " : "Hyatt Regency Sofia - " ,
+
+    "Hotel Kapri Sofia" : "Hotel Kapri Sofia",
+    "Crystal Palace Boutique Hotel" : "Crystal Palace Boutique Hotel",
+    "Oborishte 63 Boutique Hotel" : "Oborishte 63 Boutique Hotel",
+    "Hyatt Regency Sofia" : "Hyatt Regency Sofia",
+
+    "Platinium-link" : "https://rndc.bg/wp-content/uploads/2023/07/Platinum-package-Eng.pdf",
+    "Gold-link" : "https://rndc.bg/wp-content/uploads/2023/07/Gold-Package-Eng.pdf",
+    "Silver-link" : "https://rndc.bg/wp-content/uploads/2023/07/Silver-package-Eng.pdf",
+    "Bronze-link" : "https://rndc.bg/wp-content/uploads/2023/07/Bronze-Package-Eng.pdf"
 }

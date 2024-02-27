@@ -66,6 +66,25 @@
     "82 Evlogi & Hristo Georgievi Blvd." : "бул. „Евлоги и Христо Георгиеви” № 82",
     "Rakovski National Defence College" : "Военна академия „Г. С. Раковски”",
 
+    "The maximum number of papers that each author can pay (alone or in co-authorship) is two;" : "Максималният брой страници за всеки документ (самостовтелно или в съавторство) е 2 стр..",
+    "The deadline for payment of the papers for participation in the scientific conference is determined after confirmation of approval for publication of the report, but not later than 22.03.2024;" : "Крайният срок за залпащане на таксата е от датата на одобрение за побликуване на документа, но не по-късно от 22.03.2024.",
+    "The fee for participation with one paper in the scientific conference for external participants is 50 BGN including VAT. The co-authors of the papers pay a fee in full." : "Такасата на автори на един документ като външни участници в научната конференция е 50 лева, включително ДДС. При съавторство се заплаща пълна такса.",
+    "The fee for participation in the scientific conference for learners is 30 BGN including VAT;" : "Такаса на участници като обучаеми в научната конференция е 30 лева, влючително ДДС.",
+    "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;" : "Таксата за въшни участници е 30 лева, влючително ДДС.",
+    "The fees are transferred to the bank account of the Military Academy \"G. S. Rakovski\":" : "Такcите се превеждат на поcoчената банкова сметка на Военна акадения \"Г. С. Раковски\".",
+    "Beneficiary: Military Academy \"G. S. Rakovski\"" : "Получател : Военна академия \" Г. С. Раковски\".",
+    "Address of the beneficiary: Sofia 1504, bul. \"Evlogi and Hristo Georgievi\" No 82" : "Адрес на получателя: София 1504, бул.  \"Евлоги и Христо Георгиеви\" № 82",
+    "Beneficiary's Bank: BNB" : "Банка на получателя: БНБ",
+    "'BIC: BNBGBGSD" : "'BIC: BNBGBGSD",
+    "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401",
+
+    
+    "Platinium Package" : "Платинен пакет",
+    "Gold Package" : "Златен пакет",
+    "Silver Package" : "Сребърен пакет",
+    "Bronze Package" : "Бронзов пакет",
+    "Email address" : "Имейл адрес",
+
     "First name" : "Собствено име",
     "Surname" : "Бащино име",
     "Last name" : "Фамилия",
@@ -76,7 +95,7 @@
     "Choose file" : "Избери файл",
     " to upload" : "Прикачи ",
     "Only Word documents are allowed." : "Позволени са само файлове в word формат",
-    "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors):" : "Резюме на докумета на български, от 100 до 150 думи (задължително за автори)",
+    "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors):" : "Резюме на докумета на български, от 100 до 150 думи (задължително за автори):",
     "Keywords (mandatory for authors):" : "Ключови думи (задължителни за автори): ",
     "Thematic areas you wish to participate in:" : "Тематични области, в които искате да участвате :",
     "Policies, strategies, leadership" : "Политики, стратегии, лидерство",
@@ -86,25 +105,25 @@
     "Yes" : " Да ",
     "No" :" Не ", 
     "SUBMIT" : " Потвърди ",
-    "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82." : "София, 1504, булевард \"Евлоги и Христо Георгиеви\" номер 82." ,
 
-    "We recommend the following hotels for reservations within walking distance of\"G. S. Rakovski\" Military Academy:" : "Препоръчваме следните хотели, в близост с Военна академия \"Г. С. Раковски\"",
+    "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82." : "София, 1504, булевард \"Евлоги и Христо Георгиеви\" номер 82.",
+    "We recommend the following hotels for reservations within walking distance of \"G. S. Rakovski\" Military Academy:" : "Препоръчваме следните хотели, в близост с Военна академия \"Г. С. Раковски\"",
     "Hotel Kapri Sofia/Perfect location - " : "Хотел Капри ( идеална локация )",
-    "Crystal Palace Boutique Hotel - " : "Бутиков хотел Кристъл палас",
-    "Oborishte 63 Boutique Hotel - " : "Хотел Оборище 63",
-    "Hyatt Regency Sofia - " : "Резиденция Хаят",
+    "Crystal Palace Boutique Hotel - " : "Бутиков хотел Кристъл палас  - ",
+    "Oborishte 63 Boutique Hotel - " : "Бутиков хотел Хотел Оборище 63 - ",
+    "Hyatt Regency Sofia - " : "Резиденция Хаят - ",
     "Sofia 1504" : "София 1504",
     "bul. \"Evlogi and Hristo Georgievi\" No 82" : "Бул.\"Евлоги и Христо Георгиеви\" № 82",
     "Military Academy \"G. S. Rakovski\"" : "Военна академия \"Г. С. Раковки\"",
-    "":"",
+
+    "Hotel Kapri Sofia" : "Хотел Капри",
+    "Crystal Palace Boutique Hotel" : "Бутиков хотел Кристъл палас ",
+    "Oborishte 63 Boutique Hotel" : "Бутиков хотел Хотел Оборище 63 ",
+    "Hyatt Regency Sofia" : "Резиденция Хаят София",
+
     
-
-
-    "Platinium Package" : "Платинен пакет",
-    "Gold Package" : "Златен пакет",
-    "Silver Package" : "Сребърен пакет",
-    "Bronze Package" : "Бронзов пакет",
-    "Email address" : "Имейл адрес"
-
-
+    "Platinium-link" : "https://rndc.bg/wp-content/uploads/2023/07/Platina.pdf",
+    "Gold-link" : "https://rndc.bg/wp-content/uploads/2023/07/Gold.pdf",
+    "Silver-link" : "https://rndc.bg/wp-content/uploads/2023/07/Silver.pdf",
+    "Bronze-link" : "https://rndc.bg/wp-content/uploads/2023/07/Bronze.pdf"
 }

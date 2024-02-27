@@ -8,27 +8,21 @@
     </x-slot>
  
 
-        <div class='flex flex-col items-center'>
- 
- <button></button>
-     
-        <a href="https://rndc.bg/wp-content/uploads/2023/07/Platina.pdf" target="_blank" button type="button" class=" bg-yellow-500 hover:bg-blue-700 text-white font-bold py-4 px-5 rounded my-8">{{ __('
-	Platinium Package') }}</a>
+        <div class='flex flex-col items-center '>
+ <button type="button" class="text-xl w-60 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+<a href={{ __('Platinium-link') }} target="_blank">{{ __('Platinium Package') }}</a>
 </button>
-<div class='flex flex-col items-center'><button>
-<a href="https://rndc.bg/wp-content/uploads/2023/07/Gold.pdf" target="_blank" button type="button" class=" bg-yellow-500 hover:bg-blue-700 text-white font-bold py-4 px-9 rounded">{{ __('
-	Gold Package') }}</a>
-</button>
-</div>
-<div class='flex flex-col items-center'><button>
-<a href="https://rndc.bg/wp-content/uploads/2023/07/Silver.pdf" target="_blank" button type="button" class=" bg-yellow-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded my-8">{{ __('
-	Silver Package') }}</a>
-</button>
-</div>
-<div class='flex flex-col items-center'><button>
-<a href="https://rndc.bg/wp-content/uploads/2023/07/Bronze.pdf" target="_blank"  button type="button" class=" bg-yellow-500 hover:bg-blue-700 text-white font-bold py-4 px-7 rounded">{{ __('
-	Bronze Package') }}</a>
 
+<button type="button" class="text-xl w-60 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+<a href={{ __('Gold-link') }} target="_blank">{{ __('Gold Package') }}</a>
+</button>
+
+<button type="button" class="text-xl w-60 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+<a href={{ __('Silver-link') }} target="_blank" >{{ __('Silver Package') }}</a>
+</button>
+
+<button type="button" class="text-xl w-60 focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+<a href={{ __('Bronze-link') }} target="_blank">{{ __('Bronze Package') }}</a>
 </button>
 
 </div>

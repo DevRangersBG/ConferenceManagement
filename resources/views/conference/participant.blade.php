@@ -18,7 +18,7 @@
                     <p>{{ __('Deadline for submission of reports:') }} <b> {{ __('04.03.2024.') }} </b> {{ __('Reports will not be accepted after this date.') }}</p>
                     <p>{{ __("These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).") }}</p>
                     <p>{{ __("The final program of the conference will be provided to the participants upon their registration.") }}</p>
-                    <div class="mb-5 text-center">
+                    <div class="mb-5 text-center ">
                         <button type="button" class="text-xl focus:outline-none text-white bg-yellow-600 hover:bg-green-800 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
                             <a href={{ __('report template-link') }} target="_blank">{{ __('report template') }}</a>
                         </button>

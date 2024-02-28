@@ -13,22 +13,23 @@
                     <div class="p-6 text-gray-900">
 
                         <div class='flex flex-col items-center '>
-                        <button type="button" class=" bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
+                        <button type="button" class="min-w-60 bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
                         <a href={{ __('Platinium-link') }} target="_blank">{{ __('Platinium Package') }}</a>
                         </button>
 
-                        <button type="button" class=" bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8"">
+                        <button type="button" class="min-w-60 bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
                         <a href={{ __('Gold-link') }} target="_blank">{{ __('Gold Package') }}</a>
                         </button>
 
-                        <button type="button" class=" bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
+                        <button type="button" class="min-w-60 bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
                         <a href={{ __('Silver-link') }} target="_blank" >{{ __('Silver Package') }}</a>
                         </button>
 
-                        <button type="button" class=" bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
+                        <button type="button" class="min-w-60 bg-yellow-600 hover:bg-green-800 text-white font-bold py-4 px-5 rounded my-8">
                         <a href={{ __('Bronze-link') }} target="_blank">{{ __('Bronze Package') }}</a>
                         </button>
                         </div>
+
                     </div>
                 </div>
             </div>

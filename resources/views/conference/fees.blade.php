@@ -6,7 +6,7 @@
         </h2>
         
     </x-slot>
-
+    <div class="bg-contain bg-left-top bg-[url('https://img.hotimg.com/MA1.jpeg')]"> 
 
   <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -37,6 +37,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!--<footer>
     <img class="h-auto max-w-lg mx-auto" src="https://rndc.bg/wp-content/uploads/2022/12/logo-menu-1.png" alt="military academy logo">

@@ -17,7 +17,6 @@
                         <li>{{ __('Oborishte 63 Boutique Hotel - ') }}<a href="https://oborishte63.com/" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" target="_blank">{{ __('Oborishte 63 Boutique Hotel') }}</a></li>
                         <li>{{ __('Hyatt Regency Sofia - ') }}<a href="https://www.hyatt.com/en-US/hotel/bulgaria/hyatt-regency-sofia/sofrs" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" target="_blank">{{ __('Hyatt Regency Sofia') }}</a></li>
                       
-
                         <p class="text-justify my-8"><b>{{ __('Contacts with the organizing committee:') }}</b></p>
                         <p class="text-justify">{{ __('Sofia 1504') }}</p>
                         <p class="text-justify">{{ __('bul. "Evlogi and Hristo Georgievi" No 82') }}</p>

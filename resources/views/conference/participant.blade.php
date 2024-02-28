@@ -19,13 +19,13 @@
                     <p>{{ __("These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).") }}</p>
                     <p>{{ __("The final program of the conference will be provided to the participants upon their registration.") }}</p>
                     <div class="mb-5 text-center">
-                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-600 hover:bg-green-800 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
                             <a href={{ __('report template-link') }} target="_blank">{{ __('report template') }}</a>
                         </button>
-                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-600 hover:bg-green-800 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
                             <a href={{ __('instructions for authors-link') }} target="_blank">{{ __('instructions for authors') }}</a>
                         </button>
-                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
+                        <button type="button" class="text-xl focus:outline-none text-white bg-yellow-600 hover:bg-green-800 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900 my-8">
                             <a href={{ __('example layout-link') }} target="_blank">{{ __('example layout') }}</a>
                         </button>
                     </div>

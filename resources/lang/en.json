@@ -53,9 +53,14 @@
     "Reports will not be accepted after this date." : "Reports will not be accepted after this date.",
     "These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources)." : "These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).",
     "The final program of the conference will be provided to the participants upon their registration." : "The final program of the conference will be provided to the participants upon their registration.",
+
     "report template" : "report template",
     "instructions for authors" : "instructions for authors",
     "example layout" : "example layout",
+    "report template-link" : "https://rndc.bg/wp-content/uploads/2024/01/SAMPLE.docx",
+    "instructions for authors-link" : "https://rndc.bg/wp-content/uploads/2024/01/GUIDELINES.docx",
+    "example layout-link" : "https://rndc.bg/wp-content/uploads/2024/01/FORMATTING.docx",
+
     "Reports are sent using the attached participation form. Papers that do not follow the submission instructions will not be accepted." : "Reports are sent using the attached participation form. Papers that do not follow the submission instructions will not be accepted.",
     "LANGUAGES OF USE" : "LANGUAGES OF USE",
     "Bulgarian and English" : "Bulgarian and English",

@@ -53,9 +53,15 @@
     "Reports will not be accepted after this date." : "След тази дата доклади не се приемат.",
     "These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).":"Настоящите указания са разработени в съответствие с действащия стандарт БДС ISO 690:2021 (Ръководство за библиографски позовавания и цитиране на информационни източници).",
     "The final program of the conference will be provided to the participants upon their registration." : "Окончателната програма на конференцията ще бъде предоставена на участниците при регистрацията им.",
-    "report template" : "шаблон за доклад ",
+    
+
+    "report template" : "шаблон за доклад",
     "instructions for authors" : "указания за автори",
     "example layout" : "примерно оформление",
+    "report template-link" : "https://rndc.bg/wp-content/uploads/2024/01/SHABLON_AV_24.docx",
+    "instructions for authors-link" : "https://rndc.bg/wp-content/uploads/2024/01/UKAZANIA_AV_24.docx",
+    "example layout-link" : "https://rndc.bg/wp-content/uploads/2024/01/PRIMER_AV_24-1.docx",
+
     "Reports are sent using the attached participation form. Papers that do not follow the submission instructions will not be accepted." : "Изпращането на докладите се осъществява с приложената форма за участие. Доклади, в които не са спазени инструкциите за участие, няма да бъдат допускани.",
     "LANGUAGES OF USE" : "РАБОТНИ ЕЗИЦИ",
     "Bulgarian and English" : "Български и английски",

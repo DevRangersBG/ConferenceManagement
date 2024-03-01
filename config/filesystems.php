@@ -56,6 +56,15 @@ return [
             'throw' => false,
         ],
 
+        'reports' => [
+            'driver' => 'local',
+            'root' => public_path('/storage'),
+            //'root' => public_path('/'), //put the file in app/public/reports it is not linked
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
     ],
 
     /*

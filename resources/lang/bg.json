@@ -53,7 +53,7 @@
     "Reports will not be accepted after this date." : "След тази дата доклади не се приемат.",
     "These guidelines have been developed in accordance with the current BDS standard ISO 690:2021 (Guide to bibliographic references and citation of information sources).":"Настоящите указания са разработени в съответствие с действащия стандарт БДС ISO 690:2021 (Ръководство за библиографски позовавания и цитиране на информационни източници).",
     "The final program of the conference will be provided to the participants upon their registration." : "Окончателната програма на конференцията ще бъде предоставена на участниците при регистрацията им.",
-    
+
 
     "report template" : "шаблон за доклад",
     "instructions for authors" : "указания за автори",
@@ -94,7 +94,7 @@
     "Policies, strategies, leadership" : "Политики, стратегии, лидерство",
     "Research, analysis, forecasts" : "Проучвания, анализи, прогнози",
     "Operational compatibility" : "Оперативна съвместимост",
-    "Do you wish to receive a certificate of participation in the conference?:" : "Желаете ли да получите сертификат за участие в конференцията?",
+    "Do you wish to receive a certificate of participation in the conference?" : "Желаете ли да получите сертификат за участие в конференцията?",
     "Yes" : " Да ",
     "No" :" Не ",
     "SUBMIT" : " Потвърди ",
@@ -132,7 +132,9 @@
     "Address of the beneficiary: Sofia 1504, bul. \"Evlogi and Hristo Georgievi\" No 82" : "Адрес на получателя: София 1504, бул.  \"Евлоги и Христо Георгиеви\" № 82",
     "Beneficiary's Bank: BNB" : "Банка на получателя: БНБ",
     "BIC: BNBGBGSD" : "BIC: BNBGBGSD",
-    "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401"
+    "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401",
 
+    "I will participate in the conference as:" : "Ще участвам в конференцията като:",
+    "Select Thematic Area" : "Изберете Тематична област"
 }
 

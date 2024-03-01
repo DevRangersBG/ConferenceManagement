@@ -88,8 +88,8 @@
     "to upload" : "to upload",
     "Only Word documents are allowed." : "Only Word documents are allowed.",
     "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors)" : "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors)",
-    "Keywords (mandatory for authors)" : "Keywords (mandatory for authors)",
-    "Thematic areas you wish to participate in" : "Thematic areas you wish to participate in",
+    "Keywords (mandatory for authors):" : "Keywords (mandatory for authors)",
+    "Thematic areas you wish to participate in:" : "Thematic areas you wish to participate in",
     "Policies, strategies, leadership" : "Policies, strategies, leadership",
     "Research, analysis, forecasts" : "Research, analysis, forecasts",
     "Operational compatibility" : "Operational compatibility",
@@ -97,7 +97,7 @@
     "Yes" : "Yes",
     "No" : "No",
     "SUBMIT" : "SUBMIT",
-    
+
     "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82." : "Sofia, 1504 Boulevard \"Evlogi and Hristo Georgievi\" No. 82.",
     "We recommend the following hotels for reservations within walking distance of \"G. S. Rakovski\" Military Academy:" : "We recommend the following hotels for reservations within walking distance of \"G. S. Rakovski\" Military Academy:",
     "Hotel Kapri Sofia/Perfect location - " : "Hotel Kapri Sofia/Perfect location – ",
@@ -120,7 +120,6 @@
     "Silver Package" : "Silver Package",
     "Bronze Package" : "Bronze Package",
 
-
     "THEME FIELDS": "THEME FIELDS",
     "POLICIES, STRATEGIES, LEADERSHIP": "POLICIES, STRATEGIES, LEADERSHIP",
     "RESEARCH, ANALYSES, PREDICTIONS": "RESEARCH, ANALYSES, PREDICTIONS",
@@ -132,4 +131,8 @@
     "Beneficiary's Bank: BNB" : "Beneficiary's Bank: BNB",
     "BIC: BNBGBGSD" : "BIC: BNBGBGSD",
     "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401"
+
+    "I will participate in the conference as:" : "I will participate in the conference as:",
+    "Select Thematic Area" : "Select Thematic Area"
+
 }

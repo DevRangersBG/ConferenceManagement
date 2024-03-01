@@ -21,7 +21,9 @@ Follow these steps to **set up** and use the Conference Management Application:
      - npm: [Node for Windows 64bit](https://nodejs.org/dist/v20.11.1/node-v20.11.1-x64.msi)
      - composer: [Composer for Windows](https://getcomposer.org/Composer-Setup.exe)
        - you need PHP installed ([XAMP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe) to finish the Composer installation)
-       - you'll also need to edit `php.ini` to uncomment the line `;extension zip` to `extension zip` (Line:962 if you use Notepad++ for example) you can find the file under "~\xamp\php\php.ini" (usually installed in C:\) or via the XAMP Control Panel - Next to "Apache" click the button "Config" and select PHP "(php.ini)"
+       - you'll also need to edit `php.ini` to uncomment the line `;extension zip` to `extension zip` (Line:962 if 
+         you use Notepad++ for example) you can find the file under "~\xampp\php\php.ini" (usually installed in C:\) 
+         or via the XAMPP Control Panel - Next to "Apache" click the button "Config" and select PHP "(php.ini)"
 6. Run `php artisan key:generate`
 7. Run the database migrations to create the required tables. Use `php artisan migrate` command
 8. Make sure you’ve started your local server

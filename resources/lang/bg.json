@@ -71,24 +71,24 @@
     "bul. \"Evlogi and Hristo Georgievi\" No 82" : "бул. „Евлоги и Христо Георгиеви” № 82",
     "Military Academy \"G. S. Rakovski\"" : "Военна академия „Г. С. Раковски”",
 
-    "The maximum number of papers that each author can pay (alone or in co-authorship) is two;" : "Максималният брой страници за всеки документ (самостовтелно или в съавторство) е 2 стр..",
-    "The deadline for payment of the papers for participation in the scientific conference is determined after confirmation of approval for publication of the report, but not later than 22.03.2024;" : "Крайният срок за залпащане на таксата е от датата на одобрение за побликуване на документа, но не по-късно от 22.03.2024.",
-    "The fee for participation with one paper in the scientific conference for external participants is 50 BGN including VAT. The co-authors of the papers pay a fee in full." : "Такасата на автори на един документ като външни участници в научната конференция е 50 лева, включително ДДС. При съавторство се заплаща пълна такса.",
-    "The fee for participation in the scientific conference for learners is 30 BGN including VAT;" : "Такаса на участници като обучаеми в научната конференция е 30 лева, влючително ДДС.",
-    "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;" : "Таксата за въшни участници е 30 лева, влючително ДДС.",
+    "The maximum number of papers that each author can pay (alone or in co-authorship) is two;" : "Максималният брой страници за всеки документ (самостоятелно или в съавторство) е 2 стр.",
+    "The deadline for payment of the papers for participation in the scientific conference is determined after confirmation of approval for publication of the report, but not later than 22.03.2024;" : "Крайният срок за заплащане на таксата е от датата на одобрение за побликуване на документа, но не по-късно от 22.03.2024.",
+    "The fee for participation with one paper in the scientific conference for external participants is 50 BGN including VAT. The co-authors of the papers pay a fee in full." : "Таксата за автори на един документ като външни участници в научната конференция е 50 лева, включително ДДС. При съавторство се заплаща пълна такса.",
+    "The fee for participation in the scientific conference for learners is 30 BGN including VAT;" : "Таксата за участници като обучаеми в научната конференция е 30 лева, влючително ДДС.",
+    "The fee for participation without a paper in the scientific conference for external participants is 30 BGN including VAT;" : "Таксата за външни участници е 30 лева, влючително ДДС.",
     "The fees are transferred to the bank account of the Military Academy \"G. S. Rakovski\":" : "Такcите се превеждат на поcoчената банкова сметка на Военна акадения \"Г. С. Раковски\".",
 
     "First name" : "Собствено име",
     "Surname" : "Бащино име",
     "Last name" : "Фамилия",
     "Phone number" : "Телефонен номер",
-    "Report/article title in Bulgarian language:" : "Залгавие на докумета на български език:",
-    "Attached your report/article (for authors only, up to 2 MB) in Word" : "Прикачете вашия докумет(за автори, до 2 MB) в word формат",
+    "Report/article title in Bulgarian language:" : "Залгавие на документа на български език:",
+    "Attach your report/article (for authors only, up to 2 MB) in Word" : "Прикачете вашия документ(за автори, до 2 MB) в word формат",
     "Drag & Drop or" : "Провлачи или",
     "Choose file" : "Избери файл",
-    " to upload" : "Прикачи ",
+    " to upload" : " Прикачи ",
     "Only Word documents are allowed." : "Позволени са само файлове в word формат",
-    "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors):" : "Резюме на докумета на български, от 100 до 150 думи (задължително за автори):",
+    "Abstract of the report in Bulgarian language, 100 to 150 words (mandatory for authors):" : "Резюме на документа на български, от 100 до 150 думи (задължително за автори):",
     "Keywords (mandatory for authors):" : "Ключови думи (задължителни за автори): ",
     "Thematic areas you wish to participate in:" : "Тематични области, в които искате да участвате :",
     "Policies, strategies, leadership" : "Политики, стратегии, лидерство",
@@ -135,6 +135,7 @@
     "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401",
 
     "I will participate in the conference as:" : "Ще участвам в конференцията като:",
-    "Select Thematic Area" : "Изберете Тематична област"
+    "Select Thematic Area" : "Изберете Тематична област",
+    "Select Participant Type" : "Изберете тип участник"
 }
 

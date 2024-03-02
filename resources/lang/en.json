@@ -82,12 +82,12 @@
     "Last name" : "Last name",
     "Phone number" : "Phone number",
     "Report/article title in Bulgarian language" : "Report/article title in Bulgarian language",
-    "Attached your report/article (for authors only, up to 2 MB) in Word" : "Attached your report/article (for authors only, up to 2 MB) in Word",
+    "Attach your report/article (for authors only, up to 2 MB) in Word" : "Attach your report/article (for authors only, up to 2 MB) in Word",
     "Drag & Drop or'" : "Drag & Drop or",
     "Choose file" : "Choose file",
-    "to upload" : "to upload",
+    " to upload" : " to upload",
     "Only Word documents are allowed." : "Only Word documents are allowed.",
-    "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors)" : "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors)",
+    "Abstract of the report in Bulgarian language, 100 to 150 words (mandatory for authors)" : "Abstract of the report in Bulgarian language,100 to 150 words (mandatory for authors)",
     "Keywords (mandatory for authors):" : "Keywords (mandatory for authors)",
     "Thematic areas you wish to participate in:" : "Thematic areas you wish to participate in",
     "Policies, strategies, leadership" : "Policies, strategies, leadership",
@@ -133,6 +133,7 @@
     "IBAN: BG40BNBG96613100152401" : "IBAN: BG40BNBG96613100152401",
 
     "I will participate in the conference as:" : "I will participate in the conference as:",
-    "Select Thematic Area" : "Select Thematic Area"
+    "Select Thematic Area" : "Select Thematic Area",
+    "Select Participant Type" : "Select Participant Type"
 
 }

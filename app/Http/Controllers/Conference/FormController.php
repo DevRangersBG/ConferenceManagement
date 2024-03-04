@@ -10,6 +10,7 @@ use App\Models\Conference\ThematicArea;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
+use App\Notifications\NotifyOnFormSubmit;
 
 class FormController extends Controller
 {
@@ -55,6 +56,8 @@ class FormController extends Controller
         $form->save();
 
         // Send email notification to user is here
+        $user = Auth::user();
+        $user->notify(new NotifyOnFormSubmit());
 
         return redirect()->route('dashboard', app()->getLocale())->with('success', 'Form submitted successfully!');
 

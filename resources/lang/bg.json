@@ -136,6 +136,9 @@
 
     "I will participate in the conference as:" : "Ще участвам в конференцията като:",
     "Select Thematic Area" : "Изберете Тематична област",
-    "Select Participant Type" : "Изберете тип участник"
+    "Select Participant Type" : "Изберете тип участник",
+    "Author/co-author" : "Автор/съавтор",
+    "Participant without a presentation" : "Участнк без доклад",
+    "Trainee" : "Обучаем"
 }
 

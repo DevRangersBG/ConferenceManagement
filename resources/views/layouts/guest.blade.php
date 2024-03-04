@@ -15,15 +15,15 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- Meta Tags for SEO  English -->
-    <meta name="description" content="International Scientific Conference "20 years of NATO in Bulgaria. Organizer and host  - The Rakovski National Defence College - policies, analyses, strategy, forecasts.>
+    <meta name="description" content="International Scientific Conference 20 years of NATO in Bulgaria. Organizer and host  - The Rakovski National Defence College - policies, analyses, strategy, forecasts.">
     <meta name="keywords" content="Military, academy, business, national, security, research, Bulgarian, foreign, conferences,
 Academy, NATO, Black Sea, region, economic, defense, policies, strategies, leadership, research, analysis, forecasts, interoperability">
     <meta name="author" content="The Rakovski National Defence College">
 	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 
     <!-- Meta Tags for SEO Bulgarian -->
-    <meta name="description" content="Международна, научна конференция" 20 години НАТО в България. Организатор и
-        домакин Военна Академия Г.С.Раковски - политики, анализи, стратегия, прогнози.>
+    <meta name="description" content="Международна, научна конференция 20 години НАТО в България. Организатор и
+        домакин Военна Академия Г.С.Раковски - политики, анализи, стратегия, прогнози.">
     <meta name="keywords"
         content="Военна, академия, дело, национална, сигурност, научноизследователски, български, чуждестранни, конференции,
 	Академия, НАТО, Черноморския, регион, икономически, отбранителни, политики, стратегии, лидерство, изследвания, анализи, прогнози, оперативна съвместимост">
@@ -32,28 +32,28 @@ Academy, NATO, Black Sea, region, economic, defense, policies, strategies, leade
 
     <!-- Open Graph Meta Tags (for social media) English -->
     <meta property="og:title" content="Военна академия „Г. С. Раковски“">
-    <meta property="og:description" content="Международна, научна конференция " 20 години НАТО в България. Организатор
-        и домакин Военна Академия Г.С.Раковски - политики, анализи, стратегия, прогнози.>
+    <meta property="og:description" content="Международна, научна конференция 20 години НАТО в България. Организатор
+        и домакин Военна Академия Г.С.Раковски - политики, анализи, стратегия, прогнози.">
     <!-- <meta property="og:image" content="http://example.com/image.jpg">--> <!-- URL to your image -->
     <meta property="og:url" content="https://rndc.bg/">
     <meta property="og:type" content="website">
 
     <!-- Open Graph Meta Tags (for social media) Bulgarian -->
 	<meta property="og:title" content="The Rakovski National Defence College">
-    <meta property="og:description" content="International Scientific Conference "20 years of NATO in Bulgaria. Organizer and host  - The Rakovski National Defence College - policies, analyses, strategy, forecasts.>
+    <meta property="og:description" content="International Scientific Conference 20 years of NATO in Bulgaria. Organizer and host  - The Rakovski National Defence College - policies, analyses, strategy, forecasts.">
     <!-- <meta property="og:image" content="http://example.com/image.jpg">--> <!-- URL to your image -->
     <meta property="og:url" content="https://rndc.bg/">
     <meta property="og:type" content="website">
     </head>
     <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
+        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 background bg-gray-100">
             <div>
                 <a href="/">
                     <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
                 </a>
             </div>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+            <div class=" opacity w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-lg overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
         </div>

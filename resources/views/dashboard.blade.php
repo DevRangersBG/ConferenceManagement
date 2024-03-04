@@ -13,15 +13,35 @@
 
                     <div class="opacity py-4 max-w-md mx-auto mt-10 bg-white  shadow-lg rounded-lg overflow-hidden">
                         <div
-                             class="relative start-10 w-5/6 border-solid border-2 border-yellow-700  rounded-lg  place-items-center bg-cover "
+                             class="relative start-10 w-5/6 border-solid border-2 border-yellow-600  rounded-lg
+                             place-items-center bg-cover "
                              style="background-image: url('http://stilyan0901.infinityfreeapp.com/ParticipationLogo.jpg'); height: 80px">
                         </div>
+
+                        {{--@if($errors->any())
+                            <div class="mb-4 rounded-lg bg-danger-100 px-6 py-5 text-base text-danger-700"
+                                 role="alert">
+                                <ul>
+                                    @foreach($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif--}}
 
                         @if (session('success'))
                             <div id="success-message" class="mb-4 rounded-lg bg-success-100 px-6 py-5 text-base text-success-700"
                                  role="alert">
                                 <p class="mb-2 text-sm font-style: italic text-green-600
                                 dark:text-green-500">{{ session('success') }}</p>
+                            </div>
+                        @endif
+
+                        @if (session('error'))
+                            <div class="mb-4 rounded-lg bg-danger-100 px-6 py-5 text-base text-danger-700"
+                                 role="alert">
+                                <p class="mb-2 text-sm font-style: italic text-red-600
+                                dark:text-red-500">{{ session('error') }}</p>
                             </div>
                         @endif
 
@@ -33,55 +53,67 @@
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="text" name="first_name" value="{{ $form->firstname ?? '' }}"
                                        id="first_name"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-600 dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
-                                    placeholder=" " required />
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0
+                                    border-b-2 border-yellow-600 appearance-none dark:text-gray-600
+                                    dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    placeholder=" "  required/>
+                                <x-input-error class="mt-2" :messages="$errors->get('first_name')" />
                                 <label for="first_name"
                                     class="peer-focus:font-medium absolute text-sm  text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('First name') }}</label>
-                                <x-input-error class="mt-2" :messages="$errors->get('first_name')" />
+
                             </div>
 
                             <!--Sure Name -->
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="text" name="surname" id="surname" value="{{ $form->surname ?? '' }}"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-dark dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
-                                    placeholder=" " required />
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0
+                                    border-b-2 border-yellow-600 appearance-none dark:text-dark dark:border-yellow-600
+                                    dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    placeholder=" "  required/>
+                                <x-input-error class="mt-2" :messages="$errors->get('surname')" />
                                 <label for="surname"
                                     class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Surname') }}</label>
-                                <x-input-error class="mt-2" :messages="$errors->get('surname')" />
+
                             </div>
 
                             <!--Last Name -->
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="text" name="last_name" id="last_name" value="{{ $form->last_name ?? '' }}"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-dark dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
-                                    placeholder=" " required />
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0
+                                    border-b-2 border-yellow-600 appearance-none dark:text-dark dark:border-yellow-600
+                                    dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    placeholder=" "  required/>
+                                <x-input-error class="mt-2" :messages="$errors->get('last_name')" />
                                 <label for="last_name"
                                     class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Last name') }}
                                     </label>
-                                <x-input-error class="mt-2" :messages="$errors->get('last_name')" />
                             </div>
 
                             <!--Email -->
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="email" name="email" id="email" value="{{ $form->email
                                  ?? '' }}"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-dark dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
-                                    placeholder=" " required />
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0
+                                    border-b-2 border-yellow-600 appearance-none dark:text-dark dark:border-yellow-600
+                                    dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    placeholder=" " required/>
+                                <x-input-error class="mt-2" :messages="$errors->get('email')" />
                                 <label for="email"
                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Email address') }}</label>
-                                <x-input-error class="mt-2" :messages="$errors->get('email')" />
                             </div>
 
                             <!--Phone number -->
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="tel" name="phone" id="phone" value="{{ $form->phone ?? '' }}"
-                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-dark dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
-                                    placeholder=" " />
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0
+                                    border-b-2 border-yellow-600 appearance-none dark:text-dark dark:border-yellow-600
+                                    dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    placeholder=" " required/>
+                                <x-input-error class="mt-2" :messages="$errors->get('phone')" />
                                 <label for="phone"
 
                                     class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Phone number') }}
                                 </label>
-                                <x-input-error class="mt-2" :messages="$errors->get('phone')" />
                             </div>
 
                             <!--Participants -->
@@ -89,16 +121,20 @@
                                 <fieldset class="relative z-0 w-full mb-5 group">
                                     <label for="participant_type"
                                            class="block py-2.5 px-0 w-full text-sm text-gray-500 dark:text-yellow-600">{{ __('I will participate in the conference as:') }}</label>
-                                    <x-input-error class="mt-2" :messages="$errors->get('participant_type')" />
                                     <select id="participant_type" name="participant_type" onclick="hideIfAuthor()"
 
-                                            class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-yellow-600 dark:border-yellow-600 focus:outline-none focus:ring-0 focus:border-lime-800 peer">
+                                            class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent
+                                            border-0 border-b-2 border-yellow-600 appearance-none dark:text-yellow-600
+                                            dark:border-yellow-600 focus:outline-none focus:ring-0
+                                            focus:border-lime-800 peer">
                                         <option value="" disabled selected hidden>{{ __('Select Participant Type')
                                         }}</option>
                                         @foreach($participantTypes as $participantType)
-                                            <option value="{{ $participantType->id }}">{{ $participantType->name }}</option>
+                                            <option value="{{ $participantType->id }}">{{ $participantType->getName
+                                            }}</option>
                                         @endforeach
                                     </select>
+                                    <x-input-error class="mt-2" :messages="$errors->get('participant_type')" />
                                 </fieldset>
                             </div>
 
@@ -106,13 +142,16 @@
 
                                 <!--Report title -->
                                 <div class="relative z-0 w-full mb-5 group">
-                                    <input type="text" name="report_title" id="report_title" value="{{ $form->report_title ?? '' }}"
-                                        class="block py-4 px-0  w-full text-sm  text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-dark dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
+                                    <input type="text" name="report_title" id="report_title" value="{{
+                                    $form->report_title ?? '' }}"
+                                        class="block py-4 px-0  w-full text-sm  text-gray-900 bg-transparent border-0
+                                         border-b-2 border-yellow-600 appearance-none dark:text-dark
+                                         dark:border-yellow-600 dark:focus:border-lime-800 focus:outline-none focus:ring-0 focus:border-lime-800 peer"
                                         placeholder=" " />
-                                    <label for="report_title"
-                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Report/article title in Bulgarian language: ') }}
-                                    </label>
                                     <x-input-error class="mt-2" :messages="$errors->get('report_title')" />
+                                    <label for="report_title"
+                                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-yellow-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-lime-800 peer-focus:dark:text-lime-800 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{{ __('Report/article title in Bulgarian language:') }}
+                                    </label>
                                 </div>
 
                                 <!--Attach report -->
@@ -120,7 +159,7 @@
                                     <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="file_input_help">{{ __('Attach your report/article (for authors only, up to 2 MB) in Word') }}</p>
                                     <label for="report_file_path"
                                         class="opacity bg-white text-center rounded w-full sm:w-[360px] min-h-[160px] py-4 px-4 flex flex-col items-center justify-center cursor-pointer border-2 border-yellow-600 mx-auto font-[sans-serif] m-4">
-                                        <x-input-error class="mt-2" :messages="$errors->get('report_file_path')" />
+
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 mb-6 fill-yellow-600"
                                             viewBox="0 0 24 24">
                                             <path
@@ -131,28 +170,34 @@
                                                 data-original="#000000" />
                                         </svg>
                                         <p class="text-yellow-600 font-semibold text-sm">{{ __('Drag & Drop or') }} <span
-                                                class="text-[#4eb2ec]">{{ __('Choose file') }}</span>{{ __('to upload') }}</p>
+                                                class="text-lime-800">{{ __('Choose file') }}</span>{{ __(' to upload') }}</p>
 
 
-                                        <input type="file" id="report_file_path" name="report_file_path" value="{{ $form->report_file_path ?? '' }}"
-                                               class="hidden" />
+                                        <input type="file" id="report_file_path" name="report_file_path" value="{{
+                                        $form->report_file_path ?? '' }}"
+                                               class="hidden"/>
+                                        <x-input-error class="mt-2" :messages="$errors->get('report_file_path')" />
+
                                         <p class="text-xs text-yellow-600 mt-2">{{ __('Only Word documents are allowed.') }}</p>
                                     </label>
+
                                 </div>
 
                                 <!--Abstract of the report -->
                                 <div class="relative z-0 w-full mb-5 group">
                                     <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="report_details">{{ __
-                                    ('Abstract
-                                        of the report in Bulgarian language, 100 to 150 words (mandatory for authors):') }}</p>
-                                    <textarea class=" input opacity custom-textarea " name="report_details" id=report_details ></textarea>
+                                    ('Abstract of the report in Bulgarian language, 100 to 150 words (mandatory for authors):') }}</p>
+                                    <textarea class=" input opacity custom-textarea " name="report_details" type="text"
+                                              id=report_details  ></textarea>
                                     <x-input-error class="mt-2" :messages="$errors->get('report_details')" />
                                 </div>
 
                                 <!--Keywords -->
                                 <div class="relative z-0 w-full mb-5 group">
-                                    <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="keywords">{{ __('Keywords (mandatory for authors)') }}</p>
-                                    <textarea class=" input opacity custom-textarea" name="keywords" id=keywords></textarea>
+                                    <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="keywords">{{ __
+                                    ('Keywords (mandatory for authors):') }}</p>
+                                    <textarea class=" input opacity custom-textarea" name="keywords" type="text" id=keywords
+                                    ></textarea>
                                     <x-input-error class="mt-2" :messages="$errors->get('keywords')" />
                                 </div>
 
@@ -161,14 +206,19 @@
                                     <label for="thematic_area"
                                         class="block py-2.5 px-0 w-full text-sm  text-gray-500 dark:text-yellow-600">{{
                                         __('Thematic areas you wish to participate in:') }}</label>
-                                    <x-input-error class="mt-2" :messages="$errors->get('thematic_area')" />
+
                                     <select id="thematic_area" name="thematic_area"
-                                        class="block py-2.5 px-0 w-full text-sm dark:hover:text-lime-800 text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-yellow-600 dark:border-yellow-600 focus:outline-none focus:ring-0 focus:border-lime-800 peer">
+                                        class="block py-2.5 px-0 w-full text-sm dark:hover:text-lime-800
+                                        text-gray-500 bg-transparent border-0 border-b-2 border-yellow-600
+                                        appearance-none dark:text-yellow-600 dark:border-yellow-600
+                                        focus:outline-none focus:ring-0 focus:border-lime-800 peer" >
                                         <option value="" disabled selected hidden>{{ __('Select Thematic Area') }}</option>
                                         @foreach($thematicAreas as $thematicArea)
-                                            <option value="{{ $thematicArea->id }}">{{ $thematicArea->name }}</option>
+                                            <option value="{{ $thematicArea->id }}">{{ $thematicArea->getName
+                                            }}</option>
                                         @endforeach
                                     </select>
+                                    <x-input-error class="mt-2" :messages="$errors->get('thematic_area')" />
                                 </div>
 
                             </div>
@@ -179,13 +229,15 @@
                                     <label for="certificate"
                                         class="block py-2.5 px-0 w-full text-sm text-gray-500
                                         dark:text-yellow-600">{{ __('Do you wish to receive a certificate of participation in the conference?') }}</label>
-                                    <x-input-error class="mt-2" :messages="$errors->get('certificate')" />
+
                                     <select id="certificate" name="certificate"
-                                        class="block py-2.5 px-0 w-full text-sm dark:hover:text-lime-800 text-gray-500 bg-transparent border-0 border-b-2  border-gray-200 appearance-none dark:text-yellow-600 dark:border-yellow-600 focus:outline-none focus:ring-0 focus:border-lime-800 peer">
+                                        class="block py-2.5 px-0 w-full text-sm dark:hover:text-lime-800
+                                        text-gray-500 bg-transparent border-0 border-b-2  border-yellow-600
+                                        appearance-none dark:text-yellow-600 dark:border-yellow-600 focus:outline-none focus:ring-0 focus:border-lime-800 peer">
                                         <option value="1">{{ __('Yes') }}</option>
                                         <option value="0" selected>{{ __('No') }}</option>
-
                                     </select>
+                                    {{--<x-input-error class="mt-2" :messages="$errors->get('certificate')" />--}}
                                 </fieldset>
                             </div>
 
@@ -252,4 +304,12 @@
             successMessage.remove();
         }
     }, 5000);
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+        const fileInput = document.getElementById('report_file_path');
+        if (!fileInput.files || fileInput.files.length === 0) {
+            event.preventDefault();
+            alert('Please select a file.');
+        }
+    });
 </script>

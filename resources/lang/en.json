@@ -134,6 +134,9 @@
 
     "I will participate in the conference as:" : "I will participate in the conference as:",
     "Select Thematic Area" : "Select Thematic Area",
-    "Select Participant Type" : "Select Participant Type"
+    "Select Participant Type" : "Select Participant Type",
+    "Author/co-author" : "Author/co-author",
+    "Participant without a presentation" : "Participant without a presentation",
+    "Trainee" : "Trainee"
 
 }

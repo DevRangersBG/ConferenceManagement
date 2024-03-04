@@ -7,10 +7,10 @@ use App\Http\Requests\Conference\StoreFormRequest;
 use App\Models\Conference\Form;
 use App\Models\Conference\ParticipantType;
 use App\Models\Conference\ThematicArea;
-use Illuminate\Mail\Mailables\Content;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use App\Notifications\NotifyOnFormSubmit;
+use Illuminate\Support\Facades\Redirect;
 
 class FormController extends Controller
 {
@@ -19,8 +19,8 @@ class FormController extends Controller
      */
     public function create()
     {
-        $participantTypes = ParticipantType::all();
-        $thematicAreas = ThematicArea::all();
+        $participantTypes = ParticipantType::get();
+        $thematicAreas = ThematicArea::get()->skip(1);
 
         return view('dashboard', compact('participantTypes', 'thematicAreas'));
     }
@@ -31,7 +31,7 @@ class FormController extends Controller
     public function store(StoreFormRequest $request)
     {
         $participantType = ParticipantType::findOrFail($request->participant_type);
-        $thematicArea = ThematicArea::find($request->thematic_area) ;
+        $thematicArea = ThematicArea::find($request->thematic_area);
 
         if ($request->hasFile('report_file_path')) {
             $reportFilePath = $request->file('report_file_path')->store( 'reports', 'reports');

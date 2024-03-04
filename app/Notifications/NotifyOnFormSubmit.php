@@ -37,8 +37,8 @@ class NotifyOnFormSubmit extends Notification
     {
         return (new MailMessage)
                     ->subject(Lang::get('20 years Nato in Bulgaria Conference - confirmed submition'))
-                    ->line(Lang::get('This is a notification e-mail'))
-                    ->line(Lang::get('that you have submited a form and as an Author/Co-author for the conference.'))
+                    ->line(Lang::get('This is a notification e-mail.'))
+                    ->line(Lang::get('You have submited a form as an Author/Co-author for the conference.'))
                     ->action(Lang::get('Check Profile'), url('/en/profile'))
                     ->line(Lang::get('Thank you for participating in the conference!'));
     }

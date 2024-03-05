@@ -34,7 +34,18 @@ class FormController extends Controller
         $thematicArea = ThematicArea::find($request->thematic_area);
 
         if ($request->hasFile('report_file_path')) {
-            $reportFilePath = $request->file('report_file_path')->store( 'reports', 'reports');
+            $reportFilePath = $request->file('report_file_path');
+
+            $reportFilePath = Storage::disk('public')->putFileAs('/reports', $reportFilePath, str()->uuid(). '.' .
+                $reportFilePath->extension());
+        }
+
+        if (! empty($request->file('report_file_path')) && $request->file('report_file_path')->getError() > 0) {
+            return Redirect::back()->withInput()->with('error', $request->file('report_file_path')->getErrorMessage() );
+        }
+
+        if ($participantType->id === 1 && empty($request->file('report_file_path'))) {
+            return back()->withInput()->with('error', 'Report file is mandatory for authors/co-authors' );
         }
 
         $form = Form::create([
@@ -55,7 +66,6 @@ class FormController extends Controller
 
         $form->save();
 
-        // Send email notification to user is here
         $user = Auth::user();
         $user->notify(new NotifyOnFormSubmit());
 

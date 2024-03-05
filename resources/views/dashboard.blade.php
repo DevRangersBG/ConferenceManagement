@@ -18,17 +18,6 @@
                              style="background-image: url('http://stilyan0901.infinityfreeapp.com/ParticipationLogo.jpg'); height: 80px">
                         </div>
 
-                        {{--@if($errors->any())
-                            <div class="mb-4 rounded-lg bg-danger-100 px-6 py-5 text-base text-danger-700"
-                                 role="alert">
-                                <ul>
-                                    @foreach($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif--}}
-
                         @if (session('success'))
                             <div id="success-message" class="mb-4 rounded-lg bg-success-100 px-6 py-5 text-base text-success-700"
                                  role="alert">
@@ -183,6 +172,7 @@
 
                                 </div>
 
+
                                 <!--Abstract of the report -->
                                 <div class="relative z-0 w-full mb-5 group">
                                     <p class="mt-1 text-sm text-gray-500 dark:text-yellow-600" id="report_details">{{ __
@@ -237,7 +227,6 @@
                                         <option value="1">{{ __('Yes') }}</option>
                                         <option value="0" selected>{{ __('No') }}</option>
                                     </select>
-                                    {{--<x-input-error class="mt-2" :messages="$errors->get('certificate')" />--}}
                                 </fieldset>
                             </div>
 
@@ -303,7 +292,7 @@
         if (successMessage) {
             successMessage.remove();
         }
-    }, 5000);
+    }, 3000);
 
     document.querySelector('form').addEventListener('submit', function(event) {
         const fileInput = document.getElementById('report_file_path');

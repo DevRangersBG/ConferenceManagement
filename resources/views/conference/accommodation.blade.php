@@ -36,11 +36,6 @@
                                 <a href="https://www.hyatt.com/en-US/hotel/bulgaria/hyatt-regency-sofia/sofrs" class="font-medium text-yellow-600 dark:text-blue-500 hover:text-green-800 hover:underline" target="_blank">{{ __('Hyatt Regency Sofia') }}</a>
                             </li>
                         </ul>
-                            {{--<p class="text-justify my-8"><b>{{ __('Contacts with the organizing committee:') }}</b></p>
-                            <p class="text-justify">{{ __('Sofia 1504') }}</p>
-                            <p class="text-justify">{{ __('bul. "Evlogi and Hristo Georgievi" No 82') }}</p>
-                            <p class="text-justify">{{ __('Military Academy "G. S. Rakovski"') }}</p>
-                            <p class="text-justify"><a href= "mailto:ncva@rndc.bg" class = "text-yellow-600 dark:text-blue-500 hover:text-green-800" >ncva@rndc.bg</a></p>--}}
                     </div>
                 </div>
             </div>

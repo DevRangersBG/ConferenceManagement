@@ -113,6 +113,24 @@
             <x-responsive-nav-link :href="route('dashboard', app()->getLocale())" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('participant', app()->getLocale())" :active="request()->routeIs('participant')">
+                {{ __('Participant') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('panels', app()->getLocale())" :active="request()->routeIs('panels')">
+                {{ __('Panels') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('fees', app()->getLocale())" :active="request()->routeIs('fees')">
+                {{ __('Fees') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('sponsorship', app()->getLocale())" :active="request()->routeIs('sponsorship')">
+                {{ __('Sponsorship') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('accommodation', app()->getLocale())" :active="request()->routeIs('accommodation')">
+                {{ __('Accommodation') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('contacts', app()->getLocale())" :active="request()->routeIs('contacts')">
+                {{ __('Contacts') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->
